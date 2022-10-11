@@ -10,7 +10,8 @@ import { FooterComponent } from './common-components/footer/footer.component';
   declarations: [
     AppComponent,
     NavBarComponent,
-    FooterComponent
+    FooterComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -18,6 +19,9 @@ import { FooterComponent } from './common-components/footer/footer.component';
 
   ],
   providers: [],
+  exports: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,8 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 body{
-  background-color: #7fcbd7;
+  font-family: 'Roboto', sans-serif;
+  background-color: #639cd9;
 }
 
 .text-size-xxl{
@@ -10,6 +12,12 @@ body{
 }
 .text-size-xl {
   font-size: 1.25rem;
+}
+.text-size-l {
+  font-size: 1rem;
+}
+.text-size-m {
+  font-size: 0.75rem;
 }
 
 //i{
@@ -26,9 +34,9 @@ body{
 
 .btn-good {
   padding: 0.5rem;
-  background-color: darkslateblue;
+  background-color: #74bec1;
 }
 .btn-bad {
   padding: 0.5rem;
-  background-color: indianred;
+  background-color: #e04b5a;
 }
