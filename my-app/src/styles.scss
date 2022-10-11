@@ -1,4 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 body{
-  background-color: #ebd9dd;
+  background-color: #7fcbd7;
+}
+
+.text-size-xxl{
+  font-size: 1.5rem;
+}
+.text-size-xl {
+  font-size: 1.25rem;
+}
+
+//i{
+//  font-size: 1.25rem;
+//}
+
+.btn {
+  font-size: 1.25rem;
+  color: white;
+  border: 0;
+  padding: 0;
+  border-radius: 0.25rem;
+}
+
+.btn-good {
+  padding: 0.5rem;
+  background-color: darkslateblue;
+}
+.btn-bad {
+  padding: 0.5rem;
+  background-color: indianred;
 }

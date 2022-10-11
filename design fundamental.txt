@@ -1,0 +1,2 @@
+nav - 
+	top nav: common padding 2rem, menu content margin 3rem,
