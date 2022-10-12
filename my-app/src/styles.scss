@@ -30,12 +30,17 @@ body{
   border: 0;
   padding: 0;
   border-radius: 0.25rem;
+  cursor: pointer;
+}
+.btn:hover {
+
 }
 
 .btn-good {
   padding: 0.5rem;
   background-color: #74bec1;
 }
+
 .btn-bad {
   padding: 0.5rem;
   background-color: #e04b5a;

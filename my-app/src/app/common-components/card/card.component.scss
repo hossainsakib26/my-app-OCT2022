@@ -1,16 +1,21 @@
 .card{
   background-color: white;
-  padding: 1rem;
-  width: 5rem;
+  width: auto;
+  border-radius: 0.25rem;
 
   .card-header{
 
+    > .card-img {
+      border-radius: 0.20rem 0 0 0;
+    }
   }
   .card-body{
-
-  }
-  .card-footer {
-
+    padding: 0.5rem;
+    border-top: 0.125rem solid whitesmoke;
+    > .card-footer {
+      padding-top: 0.5rem;
+      border-top: 0.125rem solid whitesmoke;
+    }
   }
 
 }
